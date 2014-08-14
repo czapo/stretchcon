@@ -8,13 +8,13 @@ module.exports = {
 
         // Conference info
         conf: {
-            name: "Stretch Conference 2014 — Teamdividuals - Great teams are built of great people.",
+        name: "Engineering Powerdays 2014 — Prezi engineers unite!",
             tagline: "Leadership and management conference",
-            description: "Stretch is a leadership and management conference to learn from the best and stretch yourself. Join us in Budapest, Hungary this December and get inspired by stories from leaders in great organizations as they talk about the challenges of leadership coming from within the team.",
+            description: "An event to bring Prezi engineers closer to each other. We are around 100 already which makes it harder and harder to still be aware who is working on what. The goal is to get to know fellow engineers from other teams/clusters. Also there is a great amount of knowledge in this group so why not share it with each other? Our assumption is that we can have more relevant and more interesting presentations than any other conference! However we need you to prove this :)",
             date: "December 4-5, 2014",
             price: "$???",
-            venue: "Uránia National Film Theatre",
-            address: "1088 Rákóczi Way 21",
+            venue: "Prezi House of Ideas",
+            address: "1065 Nagymezo Way 54-56",
             city: "Budapest",
             state: "Hungary",
             latitude: "47.495632",
@@ -32,15 +32,15 @@ module.exports = {
         // to deactivate comment out with '//'
         // you can also change order here and it will reflect on page
         sections: [
-            'summary',
-            'photos',
+            //'summary',
+            //'photos',
             'about',
-            //'schedule',
+            'schedule',
             //'speakers',
             'location',
             // 'tickets',
             //'sponsors',
-            'organizers',
+            //'organizers',
             'contact'
         ],
 
@@ -58,171 +58,118 @@ module.exports = {
 
         schedule: [
             {
-                header: "Day 1 (Thursday)",
+                header: "Day 1 (Conference)",
                 slots: [
                     {
-                        time: "08:45 - 09:45",
-                        title: "Registration & Breakfast"
+                    time: "09:30 - 09:45",
+                    title: "Welcome"
                     },
                     {
-                        time: "09:45 - 10:00",
-                        title: "Welcome"
+                    time: "09:30 - 10:30",
+                    title: "2015 Prezi Engineering strategy - P. HALACSY"
                     },
                     {
-                        time: "10:00 - 10:40",
-                        title: "Non-intuitive strategies for success",
-                        keynote: true,
-                        speaker: true,
-                        recordedUrl: "http://www.ustream.tv/recorded/41391884/highlight/442620"
+                    time: "10:30 - 10:40",
+                    title: "Break"
                     },
                     {
-                        time: "10:40 - 11:20",
-                        title: "Leading a learning organization",
-                        speaker: true,
-                        recordedUrl: "http://www.ustream.tv/recorded/41391884/highlight/442623",
-                        presentationUrl: "https://prezi.com/bh84olgmbcqm/leading-a-learning-organization-stretch/",
+                    time: "10:40 - 11:00",
+                    title: "Presentation"
                     },
                     {
-                        time: "11:20 - 11:40",
-                        title: "Break"
+                    time: "11:00 - 11:20",
+                    title: "Presentation"
                     },
                     {
-                        time: "11:40 - 12:20",
-                        title: "Does your team fit? From Idea to International Success, practical tips and lessons learnt",
-                        speaker: true,
-                        recordedUrl: "http://www.ustream.tv/recorded/41394346/highlight/442652",
-                        presentationUrl: "http://goo.gl/Oys8A4",
+                    time: "11:20 - 11:40",
+                    title: "Presentation"
                     },
                     {
-                        time: "12:20 - 13:00",
-                        title: "How Agile Coaches help us win—the Agile Coach role at Spotify",
-                        speaker: true,
-                        recordedUrl: "http://www.ustream.tv/recorded/41394346/highlight/442656",
-                        presentationUrl: "https://drive.google.com/file/d/0B21W5ntVUsoMMjJBWjcycTZYcjQ/edit?usp=sharing",
+                    time: "11:40 - 11:50",
+                    title: "Break"
                     },
                     {
-                        time: "13:00 - 14:10",
-                        title: "Lunch"
+                    time: "11:50 - 12:10",
+                    title: "Presentation"
                     },
                     {
-                        time: "14:10 - 14:20",
-                        title: "Sponsor Pitches"
+                    time: "12:10 - 12:30",
+                    title: "Presentation"
                     },
                     {
-                        time: "14:20 - 15:00",
-                        title: "Getting our brains to sing together",
-                        speaker: true,
-                        recordedUrl: "http://www.ustream.tv/recorded/41397690/highlight/443646",
-                        presentationUrl: "https://drive.google.com/file/d/0B9Pcexls_M0CNjJRVTQ4ODBVdmFOMHRwXzZLVTQ4b1FSdTFN/edit?usp=sharing",
+                    time: "12:30 - 12:50",
+                    title: "Presentation"
                     },
                     {
-                        time: "15:00 - 15:40",
-                        title: "Great teams start with great people, goals, and practices... but is that enough?",
-                        speaker: true,
-                        recordedUrl: "http://www.ustream.tv/recorded/41398692/highlight/443648"
+                    time: "12:50 - 14:00",
+                    title: "Lunch"
                     },
                     {
-                        time: "15:40 - 16:00",
-                        title: "Break"
+                    time: "14:00 - 14:20",
+                    title: "Presentation"
                     },
                     {
-                        time: "16:00 - 16:40",
-                        title: "People don't quit their job, they quit their boss",
-                        speaker: true,
-                        recordedUrl: "http://www.ustream.tv/recorded/41400204/highlight/443649",
-                        presentationUrl: "https://speakerdeck.com/orenellenbogen/strechconf-2013-people-dont-quit-their-job-they-quit-their-boss",
+                    time: "14:20 - 14:40",
+                    title: "Presentation"
                     },
                     {
-                        time: "16:40 - 17:00",
-                        title: "Closing"
+                    time: "14:40 - 15:00",
+                    title: "Presentation"
                     },
                     {
-                        time: "17:00 - 20:00",
-                        title: "Snacks & Drinks"
+                    time: "15:00 - 15:10",
+                    title: "Break"
                     },
                     {
-                        time: "20:00",
-                        title: "After Party @ Kocka (45 Kazinczy)"
+                    time: "15:10 - 15:30",
+                    title: "Presentation"
+                    },
+                    {
+                    time: "15:30 - 15:50",
+                    title: "Presentation"
+                    },
+                    {
+                    time: "15:50 - 16:10",
+                    title: "Presentation"
+                    },
+                    {
+                    time: "16:10 - 16:20",
+                    title: "Break"
+                    },
+                    {
+                    time: "16:20 - 16:40",
+                    title: "Presentation"
+                    },
+                    {
+                    time: "16:40 - 17:00",
+                    title: "Presentation"
+                    },
+                    {
+                    time: "17:00 - 17:15",
+                    title: "Closing"
                     }
-                ]
+
+
+
+                        ]
             },
-            {
-                header: "Day 2 (Friday)",
-                slots: [
-                    {
-                        time: "09:00 - 10:00",
-                        title: "Registration & Breakfast"
-                    },
-                    {
-                        time: "10:00 - 10:40",
-                        title: "Offer hope to your staff: build a culture of learning",
-                        keynote: true,
-                        speaker: true,
-                        recordedUrl: "http://www.ustream.tv/recorded/41424807/highlight/443655",
-                        presentationUrl: "http://www.slideshare.net/sarahnovotny/learningculture-portraits",
-                    },
-                    {
-                        time: "10:40 - 11:20",
-                        title: "The role of the manager in modern tech organizations",
-                        speaker: true,
-                        recordedUrl: "http://www.ustream.tv/recorded/41424807/highlight/443657",
-                        presentationUrl: "http://www.slideshare.net/andreasehn/stretch-2013-role-of-the-manager",
-                    },
-                    {
-                        time: "11:20 - 11:40",
-                        title: "Break"
-                    },
-                    {
-                        time: "11:40 - 12:20",
-                        title: "PostCards from the Future: Tipis for overcoming barriers to innovation",
-                        speaker: true,
-                        recordedUrl: "http://www.infoq.com/presentations/leadership-learning-business-needs",
-                        presentationUrl: "https://prezi.com/dlbfavsgf9mn/postcards-from-the-future/",
-                    },
-                    {
-                        time: "12:20 - 12:50",
-                        title: "Panel and Q&A",
-                        recordedUrl: "http://www.ustream.tv/recorded/41426796/highlight/443660"
-                    },
-                    {
-                        time: "12:50 - 13:00",
-                        title: "Organizor Pitches",
-                        recordedUrl: "http://www.ustream.tv/recorded/41426796/highlight/443661"
-                    },
-                    {
-                        time: "13:00 - 14:10",
-                        title: "Lunch"
-                    },
-                    {
-                        time: "14:10 - 14:20",
-                        title: "Sponsor Pitches"
-                    },
-                    {
-                        time: "14:20 - 15:00",
-                        title: "Building great agile teams",
-                        speaker: true
-                    },
-                    {
-                        time: "15:00 - 15:40",
-                        title: "The EPAM way managing from 0 to the Dow Jones",
-                        speaker: true,
-                        presentationUrl: "https://drive.google.com/file/d/0B6hXWVB6ezYbZjA1U3BaWDFvMlU/edit?usp=sharing",
-                    },
-                    {
-                        time: "15:40 - 15:50",
-                        title: "Break"
-                    },
-                    {
-                        time: "15:50 - 16:30",
-                        title: "CANCELLED—The Kemény method",
-                        speaker: true
-                    },
-                    {
-                        time: "16:30",
-                        title: "Closing"
-                    }
-                ]
-            }
+                {
+                   header: "Day 2-3 (Hackathon)",
+                   slots: [
+                           {
+                           time: "09:30 - 09:45",
+                           title: "Welcome"
+                           },
+                           {
+                           time: "09:45 - 02:45",
+                           title: "Hackathon"
+                           },
+                           {
+                           time: "16:00 - 16:15",
+                           title: "Closing"
+                           }
+                           ]
+                   },
         ],
 
         // Speakers and talks

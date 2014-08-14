@@ -1,7 +1,5 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
 
-<p>You can also <a href="http://lanyrd.com/2013/stretchcon/">track the conference on Lanyrd</a>.</p>
-
 <% for @day in @schedule: %>
 <div class="schedule-container">
   <h3><%= @day.header %></h3>
