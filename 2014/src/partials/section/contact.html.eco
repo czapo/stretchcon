@@ -1,5 +1,5 @@
 <h2 class="section-title"><%= @labels['contact'] %></h2>
+<p>
+We need presenters with topics that might be interesting for all the engineers at Prezi. Contact Peter Vida for more info!
 
-<p>Contact Vidape or Czapo if you have a question.</p>
-
-
+</p>

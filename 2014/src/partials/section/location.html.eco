@@ -1,6 +1,5 @@
 <h2 class="section-title"><%= @labels['location'] %></h2>
 
-<p><strong>HOUSE OF IDEAS</p>
 <center>
 <p>
   <img class="photo" itemprop="image" src="img/urania-diszterem.jpg" alt="<%= @conf.venue %>">
